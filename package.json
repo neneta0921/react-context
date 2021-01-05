@@ -20,7 +20,7 @@
     "react-scripts": "4.0.1"
   },
   "resolutions": {
-    "babel-jest": "24.7.1"
+    "babel-jest": "^26"
   },
   "scripts": {
     "start": "react-scripts start",
