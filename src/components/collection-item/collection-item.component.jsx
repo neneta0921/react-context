@@ -10,16 +10,16 @@ const CollectionItem = ({ item }) => {
   const { addItem } = useContext(CartContext);
 
   return (
-    <div className='collection-item'>
+    <div className="collection-item">
       <div
-        className='image'
+        className="image"
         style={{
-          backgroundImage: `url(${imageUrl})`
+          backgroundImage: `url(${imageUrl})`,
         }}
       />
-      <div className='collection-footer'>
-        <span className='name'>{name}</span>
-        <span className='price'>{price}</span>
+      <div className="collection-footer">
+        <span className="name">{name}</span>
+        <span className="price">{price}</span>
       </div>
       <CustomButton onClick={() => addItem(item)} inverted>
         Add to cart
